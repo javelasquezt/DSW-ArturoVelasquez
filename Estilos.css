@@ -8,12 +8,12 @@ body{
 .menu{
     padding: 40px;
     background-color: #F47920;
-    display: inline-block;
-    position: relative;
+    
+    
     
 }
 .tabla{
-    width: 60%;
+    width: 50%;
     margin: 40px;
     text-align: justify;
 }

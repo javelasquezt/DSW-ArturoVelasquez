@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <h1 class="titulo"> PROPIEDADES BÁSICAS DE CSS, DISPLAY: INLINE, BLOCK, INLINE-BLOC </h1>    
+    <div class="menu">
+        <a href="inicio.html"> Inicio </a> -
+        <a href="conceptos01.html"> Conceptos </a> -
+        <a href="recursos01.html"> Recursos </a> -
+        <a href="autoevaluacion.html"> Autoevaluación </a> -
+        <a href="autor.html"> Autor </a> -
+     
+    </div>
+    <h2>Conceptos 2 parte</h2>
+
+    <table class="tabla">
+        <p>
+            <img src="css-display-block-vs-inline-block.png" align="right">
+            <img src="css-display-block-vs-inline-block_2.png" align="right">
+        <tr>
+            <td>
+                Selectores y otros elementos.
+                <br><br>
+Selectores básicos
+<br><br>
+Selector universal. Afecta a toda la página.
+<br>
+h1 : Selector de etiqueta. Afecta a todas las etiquetas con ese nombre.
+<br>
+clase : Selector de clase. Afecta a una clase marcada mediante class="clase".
+<br>
+#idUnico : Selector de id. Afecta a toda la etiqueta marcada mediante id="idUnico".
+<br><br>
+Agrupación de selectores
+<br><br>
+h1, h2, h3 : Combinación de selectores. La regla se aplica a todos los selectores
+indicados.
+<br>
+p b : Selector descendente. La regla se aplica a la última etiqueta si está englobada
+en las anteriores .
+<br>
+p.tipo1 : selector de etiqueta de clase. La regla se aplica la etiqueta si lleva el
+atributo de clase.
+ <br>
+p < em : Selector de hijos. Se aplica al segundo si es hijo directo del primero.
+<br>
+elemento1 + elemento2 : Selector adyacente Selecciona elemento2 siempre que:
+elemento1 y elemento2 son hermanos y además elemento2 aparece inmediatamente
+después de elemento1.
+<br><br>
+Selectores de atributos
+<br><br>
+Se escriben siempre entre corchetes [ ... ].
+<br><br>
+[nombreAtributo]: por el nombre. Selecciona a todos los atributos cuyo nombre es
+"nombreAtributo" sea cual sea su valor.
+<br>
+[nombreAtributo="miValor"]: por nombre y valor. Selecciona los atributos con
+nombre "nombreAtributo" y valor "miValor".
+<br>
+[nombreAtributo~="miValor"]: por nombre y uno de los valores. Selecciona los
+atributos con nombre "nombreAtributo" y al menos uno de los valores es "miValor". 
+<br><br>
+Pseudoclases
+<br><br>
+p:first-line : primera línea. Afecta sólo a la primera línea del texto seleccionado
+<br>
+p:first-letter : primera letra. Afecta sólo a la primera letra del texto
+seleccionado. Se emplea para hacer letras capitales.
+<br>
+Pseudoclases de enlaces
+<br>
+a:link : normal Enlace en su estado inicial
+<br>
+a:visited : visitado Enlace que ya ha sido visitado
+<br>
+a:hover : seleccionado Enlace cuando se le pasa el ratón por encima
+<br>
+a:active : activo Enlace en el momento desde que es pulsado hasta que se carga.
+<br>
+Pseudoelementos before/after: con la propiedad "content"
+<br>
+p:before : antes: para insertar texto antes de un elemento. p:after : después: para insertar texto despùés de un elemento.
+<br>
+Modos de enlazar CSS y HTML
+<br><br>
+En la etiqueta: style="propiedad: valor;"
+<br>
+En la página: <style type="text/css"> ... </style>
+<br>
+En archivo aparte; <link rel="stylesheet" type="text/css" href="" 
+<br><br><br>
+Referencia Bibliografica
+<br><br>
+Manual de CSS. (2018). Recuperado 4 de noviembre de 2020, de Manuales para la creación y diseño de páginas web website: https://aprende-web.net/css/index.php  
+
+            </td>
+        </tr>
+    </table>
+    <p>
+
+        <a href="conceptos02.html">conceptos 02</a>
+
+    
+</body>
+</html>
