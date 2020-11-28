@@ -24,14 +24,14 @@ body{
 nav a{
       text-decoration:none;
       color:inherit;
-      font-size:35px;
+      font-size:25px;
       }
             
 nav li{
-      display:inline-block;
+      display:block;
       width:150px;
       height:30px;
-      padding:5px 10px;
+      padding:10px 12px;
       background-color:#000;
       border:1px solid #000;
       text-align:center;
@@ -41,6 +41,7 @@ nav li{
 nav li:hover{
       background-color:#fff;
       color:#000;
+      
       }
             
 nav li>ul{
@@ -48,8 +49,7 @@ nav li>ul{
       }
 
 nav li:hover>ul{
-      display:block;
+      display:none;
       position:absolute;
-      top:30px;
-      left:0px;
+      min-width:140px;
 }
