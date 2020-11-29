@@ -64,13 +64,13 @@ body{
    
    #menu ul ul li {
     float:none;
-    width:150px
+    width:250px
    }
    
    /* enlaces de los items del menu desplegable */
    
    #menu ul ul a {
-    line-height:220%;
+    line-height:120%;
     padding:10px 15px;
    }
    
